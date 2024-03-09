@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_AsyncAwait", "W4_AsyncAw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTaskScheduler", "CustomTaskScheduler\CustomTaskScheduler.csproj", "{B3D91114-96ED-4EFB-998B-1D483E43306B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_AsyncEnum", "W4_AsyncEnum\W4_AsyncEnum.csproj", "{FE3CF3EF-7E17-4708-BB6E-DD71AA4C41F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_Channels", "W4_Channels\W4_Channels.csproj", "{249FD0FB-7CEB-49FF-BC39-23E90BA1129F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_Channels_Bounded", "W4_Channels_Bounded\W4_Channels_Bounded.csproj", "{AEFCEB3A-1341-4655-817F-869B44CD3554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3CF3EF-7E17-4708-BB6E-DD71AA4C41F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3CF3EF-7E17-4708-BB6E-DD71AA4C41F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3CF3EF-7E17-4708-BB6E-DD71AA4C41F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3CF3EF-7E17-4708-BB6E-DD71AA4C41F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249FD0FB-7CEB-49FF-BC39-23E90BA1129F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249FD0FB-7CEB-49FF-BC39-23E90BA1129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249FD0FB-7CEB-49FF-BC39-23E90BA1129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249FD0FB-7CEB-49FF-BC39-23E90BA1129F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFCEB3A-1341-4655-817F-869B44CD3554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFCEB3A-1341-4655-817F-869B44CD3554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFCEB3A-1341-4655-817F-869B44CD3554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFCEB3A-1341-4655-817F-869B44CD3554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

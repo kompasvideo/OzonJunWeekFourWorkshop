@@ -39,6 +39,7 @@ public class SingleThreadTaskScheduler :TaskScheduler, IDisposable
     public void Dispose()
     {
        _queue.CompleteAdding();
-       _thread.Join();
+       if (Thread.CurrentThread.ManagedThreadId != _thread.ManagedThreadId)
+          _thread.Join();
     }
 }
