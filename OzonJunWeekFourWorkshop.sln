@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4_AsyncAwait", "W4_AsyncAwait\W4_AsyncAwait.csproj", "{F9452856-F510-46A8-BBCE-DA9954E6F7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTaskScheduler", "CustomTaskScheduler\CustomTaskScheduler.csproj", "{B3D91114-96ED-4EFB-998B-1D483E43306B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9452856-F510-46A8-BBCE-DA9954E6F7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9452856-F510-46A8-BBCE-DA9954E6F7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9452856-F510-46A8-BBCE-DA9954E6F7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9452856-F510-46A8-BBCE-DA9954E6F7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D91114-96ED-4EFB-998B-1D483E43306B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
